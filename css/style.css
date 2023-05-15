@@ -1,0 +1,403 @@
+
+.header {
+    margin-top: 70px;
+    margin-left: 100px;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.header_div {
+    margin-left: 430px;
+}
+
+.header_link {
+    margin-left: 40px;
+    text-decoration: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F1534;
+
+}
+
+.header_links {
+    margin-left: 40px;
+    text-decoration: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F1534;
+}
+
+.intro_div {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro_h1 {
+    /* margin-top: 100px; */
+    margin-left: 100px;
+    max-width: 427px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.intro_p {
+    width: 445px;
+    height: 96px;
+    margin: 0px;
+    margin-left: 100px;
+    /* margin-top: 25px; */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+}
+
+.intro_button {
+    margin-top: 48px;
+    margin-left: 100px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+    border: none;
+    padding: 7px 50px;
+    background: #458FF6;
+    border-radius: 55px;
+}
+
+.intro_img {
+    /* margin-left: 100px; */
+}
+
+.Ourservices {
+    margin-top: 113px;
+}
+
+.heading {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.Ourservices_hr {
+    background: #000000;
+    border-radius: 5px;
+    width: 56px;
+    height: 2px;
+    margin-bottom: 33px;
+}
+
+.service_info {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #7D7987;
+    max-width: 952px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.Ourservices_ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Ourservices_li {
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(153, 158, 171, 0.4);
+    border-radius: 20px;
+    width: 260px;
+    padding: 56px 45px 47px 37px;
+    margin: 0 17px 37px 17px;
+}
+
+.Ourservices_li:hover {
+    box-shadow: 10px 40px 50px rgba(10, 36, 102, 0.4);
+}
+
+.Ourservices_img {
+    width: 92px;
+    height: 90px;
+    display: inline-block;
+    margin-bottom: 22px;
+}
+
+.Ourservices_h3 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    color: #000000;
+    margin: 0;
+}
+
+.text {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+    margin: 0;
+    width: 266px;
+}
+
+.Ourservices_button {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 56px;
+    margin-left: 560px;
+    margin-top: 72px;
+    background-color: white;
+}
+
+.Leading_healthcare_providers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.Leading_healthcare_providers_h1 {
+    margin-left: 150px;
+    width: 481px;
+    height: 112px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.Leading_healthcare_providers_hr {
+    margin-top: 26px;
+    margin-left: 150px;
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    border-radius: 10px;
+}
+
+.Leading_healthcare_providers_p {
+    margin-top: 30px;
+    margin-left: 150px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    width: 450px;
+    height: 120px;
+}
+
+.Leading_healthcare_providers_button {
+    margin-top: 40px;
+    margin-left: 150px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 56px;
+    background-color: white;
+}
+
+.Download_our_mobile_apps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.Download_our_mobile_apps_h1 {
+    width: 254px;
+    height: 96px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.Download_our_mobile_apps_hr {
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    border-radius: 10px;
+}
+
+.Download_our_mobile_apps_p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    width: 450px;
+    height: 120px;
+    margin-bottom: 60px;
+}
+
+.amaki {
+    background-image: url("../images/kokamaki.png");
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.amaki_h2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-top: 64px;
+    margin-left: 270px;
+}
+
+.amaki_hr {
+    width: 56px;
+    height: 2px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    margin-left: 500px;
+}
+
+.amaki_photo {
+    border-radius: 100px;
+    border: 3px solid white;
+}
+
+.amaki_uchrashuv {
+    margin: auto opx;
+}
+.amaki_h3 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.amaki_p {
+    margin: 0px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.amaki_div {
+    display: flex;
+}
+
+@media only screen and (max-width: 1305px) {
+    .header_div {
+        margin-left: 100px;
+    }
+
+    .intro_img {
+        width: 500px;
+        height: 400px;
+    }
+    
+    .intro_h1 {
+        font-size: 32px;
+    }
+
+    .intro_p {
+        font-size: 16px;
+    }
+
+    .intro_button {
+        font-size: 12px;
+        padding: 1px 30px;
+    }
+}
+
+@media only screen and (max-width: 1005px) {
+    .header_div {
+        display: none;
+    }
+
+    .intro_div {
+        margin-top: 50px;
+    }
+
+    .intro_img {
+        width: 400px;
+        height: 300px;
+    }
+
+    .intro_h1 {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .header_div {
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+
+    .header_logo {
+        width: 100px;
+    }
+}
+
+
+
